@@ -79,7 +79,7 @@ public class Product {
     public double getIVA(){
         switch (typeProduct) {
             case VIVERES:
-                return getValue()*getCant() + (getValue()*getCant()* 0.14);
+                return getValue()* 0.12;
             case LICORES:
                 return getValue()*getCant() + (getValue()*getCant()* 0.14);
             case MEDICAMENTOS:
