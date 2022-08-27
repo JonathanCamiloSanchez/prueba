@@ -4,7 +4,7 @@
  */
 
 package tyj.ciclotresdesing;
-
+import logica.Empresa;
 /**
  *
  * @author FamiliaPC
@@ -12,6 +12,8 @@ package tyj.ciclotresdesing;
 public class CiclotresDesing {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Empresa nuevaEmpresa = new Empresa(44566,"Nueva Empresa Americana S.A","Carrera 5 #11-49",7172788,"correo@nuevaempresaamericana.com");
+        
+        System.out.println(nuevaEmpresa.getNitEmpresa()+" "+nuevaEmpresa.getNombreEmpresa());
     }
 }
