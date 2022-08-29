@@ -25,6 +25,14 @@ public class Empresa {
         this.telefonoEmpresa = telefonoEmpresa;
         this.correoEmpresa = correoEmpresa;
     }
+    
+    public void actualizarEmpresa(int nitEmpresa, String nombreEmpresa, String direccionEmpresa, int telefonoEmpresa, String correoEmpresa){
+        this.nitEmpresa = nitEmpresa;
+        this.nombreEmpresa = nombreEmpresa;
+        this.direccionEmpresa = direccionEmpresa;
+        this.telefonoEmpresa = telefonoEmpresa;
+        this.correoEmpresa = correoEmpresa;
+    }
 
     public int getNitEmpresa() {
         return nitEmpresa;

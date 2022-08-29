@@ -14,6 +14,10 @@ public class CiclotresDesing {
     public static void main(String[] args) {
         Empresa nuevaEmpresa = new Empresa(44566,"Nueva Empresa Americana S.A","Carrera 5 #11-49",7172788,"correo@nuevaempresaamericana.com");
         
-        System.out.println(nuevaEmpresa.getNitEmpresa()+" "+nuevaEmpresa.getNombreEmpresa());
+        System.out.println(nuevaEmpresa.getNitEmpresa()+" "+nuevaEmpresa.getNombreEmpresa()+" "+nuevaEmpresa.getCorreoEmpresa()+""+nuevaEmpresa.getDireccionEmpresa());
+        
+        nuevaEmpresa.actualizarEmpresa(12345, "Actual EMpresa", "Carrea 8 -13", 897999, "nuevocorre.nuevo@dominonuevo.com");
+        
+        System.out.println(nuevaEmpresa.getNitEmpresa()+" "+nuevaEmpresa.getNombreEmpresa()+" "+nuevaEmpresa.getCorreoEmpresa()+""+nuevaEmpresa.getDireccionEmpresa());
     }
 }
